@@ -1,0 +1,126 @@
+.navbarsite{
+    background: #118ab2;
+}
+.custom-item{
+    color: #bfd2bf;
+    text-align: center;
+}
+
+.divisor{
+    width:7px;
+    height: 2px;
+    background-color: #ffb30f;
+    position: relative;
+    top: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
+    display: none;
+}
+body{
+    background: url(..//img/background.jpg);
+    background-size: cover;
+    padding-top: 65px;
+}
+
+.nav-link:hover{
+    color: white;
+    transition: 0.2s;
+}
+/* aqui acaba o css básico da navbar*/
+
+/*tipografia */
+span{
+    color:#ffb30f;
+}
+h1{
+   margin-top: 70px; 
+   color: #bfd2bf; 
+   text-align: center;
+   font-size: 60px;
+   
+   font-weight: 700;
+   text-transform: uppercase;
+   font-family: 'Noto Sans', sans-serif;
+}
+h2{
+    color: #bfd2bf;
+    text-align: center;
+}
+h3{
+    color: #bfd2bf;
+    margin: 10px;
+    font-family: 'Noto Sans', sans-serif;
+    text-align: center;
+}
+/* fim da tipografia */
+
+#lastrowhome{
+    margin-top: 40px;
+    margin-bottom: 50px; 
+}
+
+.gamepanel{
+    margin: 5px;
+    border-radius: 9px;
+    transition: 0.2s;
+    margin-top: 40px;
+}
+.gamepanel:hover{
+    transform: scale(1.05) translateY(-10px);
+    
+    transition: 0.2s;
+}
+
+.home{
+    border-bottom: solid 2px #bfd2bf;
+}
+
+.secondhome{
+    background: #353535;
+    padding-top: 50px;
+    border-bottom: solid 2px #bfd2bf;
+}
+
+.lasthome{
+    padding-top: 60px;
+    
+}
+.seguralogo{
+    display: flex;
+    justify-content: center;
+}
+
+.logoborder{
+    transform: translateY(51.5%);
+}
+
+footer{
+    background: black;
+    padding-top: 25px;
+    padding-bottom: 30px;
+}
+
+footer h2{
+    text-align: left;
+    font-size: 20px;
+    margin-top: 25px;
+}
+
+footer h3{
+    text-align: left;
+    font-size:13px;
+}
+/* media queries */
+@media (min-width: 576px) { 
+
+ }
+
+@media (min-width: 768px) { 
+    .divisor{
+        display: block;
+    }
+ }
+
+@media (min-width: 992px) {  }
+
+@media (min-width: 1200px) {  }
